@@ -1,0 +1,208 @@
+body{
+	font-family: arial,verdana,helvetica,sans-serif;
+	font-size: 10pt;
+	background-color: #ffffff;
+	color: #000000;
+	padding: 2% 5% 2% 5%;
+}
+
+h2{
+	text-align: center;
+}
+
+div.MainBody{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h3{
+	text-align: left;
+	border-style: solid;
+	border-width: 2px;
+	padding: 5px;
+	color: #000099;
+	border-color: #f0f0f0 #999999 #999999 #f0f0f0;
+	background-color: #dddddd;
+	margin: 0px;
+}
+
+div.Section{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	margin: 0px 0px 10px 0px;
+}
+
+div.Section ul, div.Section ol{
+	margin: 10px;
+}
+
+p{
+	margin: 2em;
+}
+
+div.Header{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: none;
+}
+
+div.Footer{
+	font-size: small;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	text-align: center;
+	border-style: solid;
+	border-width: 1px 0px 0px 0px;
+	border-color: #000000;
+}
+
+img.HeaderImage{
+	text-align: center;
+	margin: auto;
+	border-style: none;
+	cursor: pointer;
+}
+
+div.CentredDiv{
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+}
+
+table.HPMenu{
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px;
+	background-color: #000000;
+	color: #ffffff;
+	border-style: none;
+	border-width: 0px;
+}
+
+td.MenuItem{
+	background-color: #000000;
+	color: #ffffff;
+	cursor: pointer;
+	text-align: center;
+	vertical-align: middle;
+	font-size: small;
+	padding: 0px;
+}
+
+td.MenuItem:hover, td.MenuItem a:hover{
+	background-color: #ffffff;
+	color: #000000;
+}
+
+td.MenuItem a{
+	background-color: #000000;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+ul{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+li{
+	margin-left: 5%;
+	margin-right: auto;
+	margin-top: 5px;
+}
+
+li ul{
+	list-style-type: square;
+}
+
+a{
+	border-style: none;
+	color: #000099;
+}
+
+a:hover{
+	color: #0000ff;
+}
+
+table.BugTable{
+	border-style: solid;
+	border-width: 1px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+	padding: 0px;
+}
+
+table.BugTable td, table.BugTable th{
+	vertical-align: top;
+	padding: 5px;
+	border-style: solid;
+	border-width: 1px;
+	margin: 0px;
+}
+
+.AppName{
+	font-style: italic;
+}
+
+div.LeftPanel{
+	float: left;
+	top: 0px;
+	bottom: 0px;
+	background-color: #000000;
+}
+
+a img{
+	border-style: none;
+}
+
+strong{
+	font-weight: bold;
+	font-style: normal;
+	background-color: #ffff00;
+}
+
+
+table.BugTable{
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-width: 1px;
+}
+
+table.BugTable thead tr{
+	background-color: #ffddff;
+}
+
+table.BugTable thead td{
+	font-weight: bold;
+	text-align: center;
+}
+
+table.BugTable tr.FixedBug{
+	background-color: #dddddd;
+	color: #666666;
+}
+
+div.PopDown{
+	display: none;
+	cursor: pointer;
+	padding: 0.5em;
+	border-style: solid;
+	border-width: 0.2em;
+	border-color: #f0f0f0 #999999 #999999 #f0f0f0;
+	background-color: #e0e0e0;
+	margin: 0.5em;
+}
+
+col.OddColumn{
+	background-color: #eeeeff;
+}
+
+col.EvenColumn{
+	background-color: transparent;
+}
